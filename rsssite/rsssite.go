@@ -33,7 +33,7 @@ func getSite(url string) MagnetSite {
 	switch name {
 	case "mikanani.me", "mikanime.tv":
 		return &Mikanani{}
-	case "nyaa.si", "sukebei.nyaa.si":
+	case "nyaa.si1", "sukebei.nyaa.si":
 		return &Nyaa{}
 	case "madou.gray728.xyz":
 		return &Dmhy{}
